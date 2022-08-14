@@ -36,6 +36,7 @@ public class Homepage{
     public String hometitlepage(){
         String expectedtitle = driver.getTitle();
         System.out.println(expectedtitle);
+
         return expectedtitle;
     }
 
